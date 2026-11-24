@@ -1,5 +1,3 @@
-#ifndef GRAYSCALE_H
-#define GRAYSCALE_H
 
 bool cudaInit(int width, int height);
 
@@ -11,5 +9,3 @@ bool cudaProcess(
 );
 
 void cudaCleanup();
-
-#endif
