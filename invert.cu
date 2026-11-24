@@ -1,4 +1,4 @@
-```cpp
+
 #include<iostream>
 #include<cuda_runtime.h>
 #include "invert.h"
@@ -137,4 +137,4 @@ void cudaclean()
     d_input = nullptr;
     d_output = nullptr;
 }
-```
+
